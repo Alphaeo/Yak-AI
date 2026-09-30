@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cool website</title>
+    <style>
+        body { margin: 0; color: white; } /* le fond 3D est noir */
+        a { color: #7fe0b8; }
+        canvas { position: fixed; top: 0; left: 0; z-index: -1; } /* la 3D reste en fond */
+        section { height: 100vh; } /* chaque section = un écran */
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Welcome to My Website</h1>
+        <p>This is a sample website using JavaScript modules.</p>
+    </section>
+    <section>
+        <h2>About</h2>
+        <p>This section provides information about the website.</p>
+    </section>
+    <section>
+        <h2>Contact</h2>
+        <p>You can contact us at <a href="mailto:info@example.com">info@example.com</a>.</p>
+    </section>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
